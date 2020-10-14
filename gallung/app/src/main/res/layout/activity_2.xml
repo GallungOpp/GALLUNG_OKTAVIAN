@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_2"
+                android:textSize="18sp" />
+
+
+
+    <ScrollView
+        android:layout_width="399dp"
+        android:layout_height="532dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="189dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            tools:context="net.lebakcyber.tutorialandroidlebakcyber.MainActivity">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Halo Nama Saya Gallung Oktavian Pratama Putra, saya sekarang kuliah di Politeknik Negeri Jember.Jurusan Teknologi Informasi Prodi Teknik Komputer.\n\n
+                Alasan saya Kuliah di Politekni ini karena saya ingin kuliah jauh dengan rumah saya.\n\n
+                Rumah saya Berada di Kota Lamongan, butuh waktu sekitar 6-7 jam bahkan lebih untuk menempuh perjalanan ke Politeknik Negeri Jember.\n\n
+                Saya biasanya berangkat ke jember naik bus,kereta atau speda motor bersama teman saya. Dan juga saya kuliah disini karena saya sangat suka dengan teknologi.\n\n
+                karena zaman sekarang kita tidak akan lepas dari yang namanya teknologi.
+                Saya ingin menjadi orag berguna bagi negara indonesia, Semoga cita-cita saya dapat tercapai.\n\n
+                sekian dari saya. Terima Kasih"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/backBtn"
+                android:layout_width="104dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:text="@string/go_back"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
